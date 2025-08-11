@@ -1,0 +1,25 @@
+package com.tnsif.dayeight.abstraction;
+
+public class Square extends Shape{
+
+	public static void main(String[] args) {
+		private float side;
+
+
+		public Square() {
+			side=2.0f;
+		}
+
+
+		public Square(float side) {
+			this.side = side;
+		}
+
+
+		@Override
+		void calArea() {
+	     super.area= side*side;
+		
+	}
+
+}
